@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "diploma-todolist"
+version = "0.1.0"
+description = ""
+authors = ["pestich <pestich@mail.ru>"]
+readme = "README.md"
+packages = [{include = "diploma_todolist"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.1.7"
+envparse = "^0.2.0"
+psycopg2-binary = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
